@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AWS-rodri</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 </head>
+
 <body>
     <div class="card">
         <div class="card-header">
@@ -18,7 +21,7 @@
                     <label for="buckets">Buckets</label>
                     <select name="buckets" id="buckets" class="form-control">
                         {{#each buckets}}
-                            <option value="{{this.Name}}">{{this.Name}}</option>
+                        <option value="{{this.Name}}">{{this.Name}}</option>
                         {{/each}}
                     </select>
                 </div>
@@ -36,7 +39,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <img src="img/no-available.png" alt="no-image" id="image" width="150" height="100">
+                        <img src="" alt="no-image" id="image" width="150" height="100">
                     </td>
                     <td>
                         <a href="#" class="btn btn-primary" id="link">
@@ -49,4 +52,5 @@
     </div>
     <script src="js/upload.js"></script>
 </body>
+
 </html>
